@@ -19,3 +19,9 @@ if (numberOfToppings < 10) {
 } else {
   console.log("A whole lot of pizza.");
 }
+
+let x = 2;
+while (x <= numberOfToppings) {
+  console.log(x);
+  x = x + 2;
+}
