@@ -7,11 +7,7 @@ console.log(numberOfToppings);
 console.log(typeof numberOfToppings);
 
 console.log(
-  "The name of the pizza place is " +
-    pizzaPlace +
-    " and the number of toppings offered is " +
-    numberOfToppings +
-    "."
+  `The name of the pizza place is ${pizzaPlace} and the number of toppings offered is ${numberOfToppings}.`
 );
 
 if (numberOfToppings < 10) {
