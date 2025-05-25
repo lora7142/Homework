@@ -1,0 +1,85 @@
+/* Include the Following CSS
+utilize the CSS Box Model for padding, margin, and border -DONE
+utilize a color scheme (max. 4 colors) - DONE
+1+ class selector - DONE
+1+ ID selector - DONE
+1+ complex selector - DONE*/
+body {
+   font-family: Arial, Helvetica, sans-serif;
+  }
+  header {
+    height: 75px;
+    margin: 0;
+    padding-top: 6px;
+    text-align: center;
+    color: white;
+    background: #9c1a1a;
+    background: linear-gradient(180deg, rgba(156, 26, 26, 1) 65%, rgba(0, 0, 0, 1) 100%);
+  }
+  main {
+    margin-left: 25px;    
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* class selector */
+.para {
+  width: 525px;
+}
+/* ID selector 1 */
+#list1 {
+  margin-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border-style: dashed;
+  width: 250px;
+}
+/* ID selector 2 */
+#list2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border-style: double;
+  width: 250px;
+}
+/* complex selector */
+p > a:link {
+color: #9c1a1a;
+}
+P > a:hover {
+  color: green;
+}
+h3 {
+  width: 550px;
+  text-align: center;
+}
+/* Border */
+img {
+border-radius: 10px;
+border-style: groove;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-color: gray;
+border-width: 5px;
+box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer > div > a:link {
+  color: white;
+}
+footer > div > a:hover {
+  color: gray;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 15px 50px 0 0;
+  vertical-align: middle;
+  text-align: right;
+  height: 50px;
+  background: #9c1a1a;
+  background: linear-gradient(180deg, rgba(156, 26, 26, 1) 65%, rgba(0, 0, 0, 1) 100%);
+  font-size: 12px;
+}
