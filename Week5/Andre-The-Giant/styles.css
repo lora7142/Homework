@@ -1,0 +1,105 @@
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+img {
+  height: 50%;
+}
+
+div {
+  border: 2px solid burlywood;
+  margin: 10px;
+}
+
+#introPic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  border-radius: 30px;
+  padding: 15px 0 15px 0;
+}
+
+#about-me {
+  /* float: right; */
+  columns: 2;
+}
+
+#top {
+    padding-left: 30px;
+}
+
+#about-me>li {
+  padding: 2px;
+  text-align: left;
+}
+
+#pro {
+  width: auto;
+}
+
+#earlyLife {
+  text-align: left;
+}
+
+#earlyLife h2 {
+  text-align: center;
+}
+
+#earlyCareer img {
+  padding: 15px 0 15px 0;
+  max-width: 500px;
+  border-radius: 30px;
+}
+
+#earlyCareer p {
+  text-align: left;
+}
+
+#proCareer img {
+  border-radius: 30px;
+  height: 50%;
+  width: 50%;
+  padding: 15px 0 15px 0;
+}
+p {
+  text-align: left;
+  padding: 0 50px 0 50px;
+  }
+#Stuff {
+  padding: 20px 0 20px 0;
+  }
+
+#achievements {
+  text-align: left;
+  }
+
+  @media only screen and (max-width: 375px) {
+    body {
+      /* background-color: blue; */
+    }
+    #about-me {
+      padding: 0 5px 0 5px;
+    }
+    #stuff {
+      padding: 5px 0 5px 0;
+      font-size: 8px;
+    }
+    #earlyCareer img {
+      height: 50%;
+      width: 50%
+    }
+    p {
+      padding: 0 20px 0 20px;
+    }
+  }
